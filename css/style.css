@@ -271,15 +271,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     }
   
 .p-btn {
-color:  #2E2F42;
-text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 72px;
-margin-bottom: 24px;
+  color: #2e2f42;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
 .Forma-backdropa {
@@ -363,6 +358,7 @@ color: rgba(46, 47, 66, 0.40);
     letter-spacing: 0.04em;
     color: #8e8f99;
     user-select: none;
+      margin-bottom: 24px;
 }
 
 .input-check {margin-right: 8px}
