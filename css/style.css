@@ -250,6 +250,11 @@ position: fixed;
 .model-btn:focus .ikn-kres {
   border: none;
   fill: #ffffff; }
+    .model-btn:hover,
+    .model-btn:focus {
+      background-color: #404bbf;
+      border: 0;
+    }
   
 .p-btn {
 color:  #2E2F42;
@@ -318,42 +323,67 @@ color: rgba(46, 47, 66, 0.40);
     border-color: #4D5AE5;
   }
 
-.privat-label { 
-  display: block;
-  margin-bottom: 24px;
-  color:  #8E8F99;
+.check-box { 
+  position: relative;
+    display: block;
+    align-items: center;
+  
+    margin-bottom: 24px;
+  
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    user-select: none;
 }
 
-.checkbox-privat {}
+.input-check {margin-right: 8px}
 
-.span-privat {
- display: inline-flex;
- justify-content: center;
+.checkbox-icon {
+width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+
+  display: inline-flex;
   align-items: center;
-  width: 20px;
+  justify-content: center;
 
+  margin-right: 8px;
+  border-radius: 2px;
+  cursor: pointer;
 
+  fill: transparent;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ikon-privat {
-  opacity: 0;
-}
+.form-label-checkbox {margin-bottom: 16px;
+  display: flex}
 
+checkbox-icon-check {
+    fill: #f4f4fd;
+  }
+.input-check:checked + .form-label-checkbox .checkbox-icon {
+  border: none;
+    fill: #f4f4fd;
+    background-color: #404bbf;
+}
 .polic {
-  color:  #4D5AE5;
-
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration-line: underline;
+  text-decoration: underline;
+  color: #4d5ae5;
 }
+
+.polic:hover,
+.polic:focus {
+  color: #404bbf;}
+
+
+
 .checkbox-privat:checked+.span-privat
 { fill:  #404BBF;
   stroke-width: 1px;
@@ -361,26 +391,26 @@ color: rgba(46, 47, 66, 0.40);
 
   .button-forma {
         font-weight: 500;
-        letter-spacing: 0.64px;
-        color: #fff;
-        background-color: #4d5ae5;
-        border-radius: 4px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        line-height: 1.5;
-    
-        min-width: 169px;
-        border: none;
-        height: 56px;
-        display: block;
-    
-        margin: auto;
-        padding: 0;
-    
-        cursor: pointer;
-    
-        transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          letter-spacing: 0.64px;
+          color: #fff;
+          background-color: #4d5ae5;
+          border-radius: 4px;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+          line-height: 1.5;
+        
+          min-width: 169px;
+          border: none;
+          height: 56px;
+          display: block;
+        
+          margin: auto;
+          padding: 0;
+        
+          cursor: pointer;
+        
+          transition-property: background-color;
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
     
       .button-forma:hover,
