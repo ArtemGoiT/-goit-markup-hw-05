@@ -228,15 +228,33 @@ position: fixed;
     align-items: center;
     justify-content: center;
   
-    min-width: 28px;
-      height: 28px;
-      border-radius: 50%;
-    color: #2E2F42;
-}
+    padding: 0;
+    cursor: pointer;
+  
+    min-width: 24px;
+    height: 24px;
+  
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 .ikn-kres {
-  stroke: currentColor;
+  fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.model-btn:hover .ikn-kres,
+.model-btn:focus .ikn-kres {
+  border: none;
+  fill: #ffffff; }
+
+.model-btn:hover,
+.model-btn:focus {
+  background-color: #404bbf;
+  border: 0; }
 
 .p-btn {
 color:  #2E2F42;
@@ -279,14 +297,103 @@ outline: transparent;}
 
 .ikon-form {
   position: absolute;
-  top: 11px;
+  top: 8px;
   left: 16px;
+
   color: #2E2F42;
 
 }
 .input-form:focus + .ikon-form {
   fill: #4D5AE5;
 }
+
+.texteria_comment {
+width: 360px;
+  height: 120px;
+  border-radius: 4px;
+    border: 1px solid  rgba(46, 47, 66, 0.40);
+    resize: none;
+    padding-top: 8px;
+    padding-left: 16px;
+}
+.texteria_comment::placeholder {
+color: rgba(46, 47, 66, 0.40);
+}
+.texteria_comment:focus {
+    border-color: #4D5AE5;
+  }
+
+.privat-label { 
+  display: block;
+  margin-bottom: 24px;
+  color:  #8E8F99;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+}
+
+.checkbox-privat {}
+
+.span-privat {
+ display: inline-flex;
+ justify-content: center;
+  align-items: center;
+  width: 20px;
+
+
+}
+
+.ikon-privat {
+  opacity: 0;
+}
+
+.polic {
+  color:  #4D5AE5;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+}
+.checkbox-privat:checked+.span-privat
+{ fill:  #404BBF;
+  stroke-width: 1px;
+  stroke: #404BBF;  }
+
+  .button-forma {
+        font-weight: 500;
+        letter-spacing: 0.64px;
+        color: #fff;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        line-height: 1.5;
+    
+        min-width: 169px;
+        border: none;
+        height: 56px;
+        display: block;
+    
+        margin: auto;
+        padding: 0;
+    
+        cursor: pointer;
+    
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    
+      .button-forma:hover,
+      .button-forma:focus {
+        background-color: #404bbf;
+        border: 0;
+  }
+
 .main-plan {padding: 120px 0;
 }
 .visually-hidden {
