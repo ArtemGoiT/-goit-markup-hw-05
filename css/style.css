@@ -250,12 +250,7 @@ position: fixed;
 .model-btn:focus .ikn-kres {
   border: none;
   fill: #ffffff; }
-
-.model-btn:hover,
-.model-btn:focus {
-  background-color: #404bbf;
-  border: 0; }
-
+  
 .p-btn {
 color:  #2E2F42;
 text-align: center;
