@@ -290,8 +290,11 @@ margin-left: 24px;
 }
 .label_form {
   display: block;
-  margin-bottom: 4px;}
+  margin-bottom: 4px;
+line-height: 1.17;
+letter-spacing: 0.04em}
 
+.div-input {position: relative;}
 .form-name {
 margin-bottom: 8px;}
 
