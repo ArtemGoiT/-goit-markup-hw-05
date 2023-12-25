@@ -195,7 +195,7 @@ opacity: 0;
 position: fixed;
   top: 0;
   left: 0;
-
+margin-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,6 +208,7 @@ position: fixed;
   opacity: 1;
     visibility: visible;
     pointer-events: initial;
+    
 }
 
 .model {
@@ -277,7 +278,7 @@ text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-top: 72px;
-margin-bottom: 16px;
+margin-bottom: 24px;
 }
 
 .Forma-backdropa {
