@@ -278,12 +278,7 @@ min-width: 408px;
 }
 
 .Forma-backdropa {
-color:#8E8F99;
-font-size: 12px;
-letter-spacing: 0.02em;
-gap: 8px;
-  display: grid;
-margin-left: 24px;
+
 }
 .label_form {
   display: block;
