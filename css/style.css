@@ -284,8 +284,9 @@ min-width: 408px;
   display: block;
   margin-bottom: 4px;
 line-height: 1.17;
-letter-spacing: 0.04em}
-
+letter-spacing: 0.04em;
+font-size: 12px;
+ сolor: #8e8f99;}
 .form-input {position: relative;
   margin-bottom: 16px;
 }
@@ -326,7 +327,8 @@ background-color: transparent;
 width: 360px;
   height: 120px;
   border-radius: 4px;
-    border: 1px solid  rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+  border: 1px solid  rgba(46, 47, 66, 0.40);
     resize: none;
     padding: 8px 16px;
     line-height: 1.17;
@@ -342,7 +344,7 @@ color: rgba(46, 47, 66, 0.40);
 .texteria_comment:focus {
     border-color: #4D5AE5;
   }
-form-name.comment {margin-bottom: 16px;}
+form-namecomment {margin-bottom: 16px;}
 .check-box { 
   position: relative;
     display: block;
