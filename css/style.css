@@ -344,7 +344,7 @@ color: rgba(46, 47, 66, 0.40);
 .texteria_comment:focus {
     border-color: #4D5AE5;
   }
-form-namecomment {margin-bottom: 16px;}
+.form-namecomment {margin-bottom: 16px;}
 .check-box { 
   position: relative;
     display: block;
