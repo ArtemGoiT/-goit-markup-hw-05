@@ -281,13 +281,17 @@ min-width: 408px;
 
 }
 .label_form {
+  сolor: #8e8f99;
   display: block;
   margin-bottom: 4px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-font-size: 12px;
- сolor: #8e8f99;}
-.form-input {position: relative;
+font-size: 12px;}
+.model .label_form {
+  color: #8e8f99;
+
+}
+ .form-input {position: relative;
   margin-bottom: 16px;
 }
 .form-name {
